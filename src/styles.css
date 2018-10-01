@@ -1,0 +1,119 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 200px;
+  background-color: hsl(237, 9%, 48%);
+  color: #fff;
+  text-align: center;
+  border-radius: 1px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+  padding: 5px;
+  word-wrap: break-word;
+  font-size: 12px;
+  font-family: monospace;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent hsl(237, 9%, 48%) transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltiptext p {
+  color: white;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+/**  Do not copy !! **/
+h2 {
+  font-size: 24px;
+  color: hsl(218, 100%, 33%);
+  font-weight: 300;
+  border-bottom: 2px solid hsl(237, 62%, 31%);
+  padding: 20px 0 5px 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: hsl(218, 100%, 33%);
+  font-weight: 300;
+  border-bottom: 2px solid hsl(237, 62%, 31%);
+  padding: 20px 0 5px 0;
+  margin-bottom: 20px;
+}
+
+/* <div className="tooltip help-tooltip">
+        <span className="help-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="20px"
+            viewBox="1 1 511.99999 511.99999"
+            width="20px"
+          >
+            <g>
+              <path
+                d="m80 16h352c35.347656 0 64 28.652344 64 64v352c0 35.347656-28.652344 64-64 64h-352c-35.347656 0-64-28.652344-64-64v-352c0-35.347656 28.652344-64 64-64zm0 0"
+                fill="hsl(212, 100%, 44%)"
+                data-original="#BDDBFF"
+                class="active-path"
+                data-old_color="#57a5ff"
+              />
+              <g fill="#3d9ae2">
+                <path
+                  d="m432 0h-352c-44.160156.0507812-79.9492188 35.839844-80 80v352c.0507812 44.160156 35.839844 79.949219 80 80h352c44.160156-.050781 79.949219-35.839844 80-80v-352c-.050781-44.160156-35.839844-79.9492188-80-80zm48 432c0 26.507812-21.488281 48-48 48h-352c-26.507812 0-48-21.488281-48-48v-352c0-26.507812 21.488281-48 48-48h352c26.507812 0 48 21.488281 48 48zm0 0"
+                  data-original="#000000"
+                  fill="#F0EFEF"
+                  data-old_color="#F0EDED"
+                />
+                <path
+                  d="m256 96c-52.996094.054688-95.945312 43.003906-96 96h32c0-35.347656 28.652344-64 64-64 35.347656-.035156 64.027344 28.589844 64.0625 63.9375.027344 28.300781-18.535156 53.257812-45.648438 61.375-20.402343 5.9375-34.425781 24.640625-34.414062 45.886719v52.800781h32v-52.800781c.0625-7.09375 4.789062-13.300781 11.617188-15.246094 50.78125-15.234375 79.601562-68.75 64.367187-119.535156-12.183594-40.621094-49.578125-68.433594-91.984375-68.417969zm0 0"
+                  data-original="#000000"
+                  fill="#F0EFEF"
+                  data-old_color="#F0EDED"
+                />
+                <path
+                  d="m240 384h32v32h-32zm0 0"
+                  data-original="#000000"
+                  fill="#F0EFEF"
+                  data-old_color="#F0EDED"
+                />
+              </g>
+            </g>
+          </svg>
+        </span>
+        <span className="tooltiptext">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quia
+            delectus cum illo maiores laborum earum culpa obcaecati commodi
+            quaerat? Neque quo nulla voluptatem. Quos asperiores nesciunt error
+            dolore reiciendis?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            voluptate cum aspernatur quia placeat, quas in sapiente. Repudiandae
+            assumenda esse explicabo quaerat facilis, corporis officia
+            repellendus, quam cupiditate, harum accusamus?
+          </p>
+        </span>
+      </div> */
